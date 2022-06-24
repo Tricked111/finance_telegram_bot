@@ -1,6 +1,6 @@
 tinkof = 'https://www.tinkoff.ru/invest/currencies/USDRUB/'
 binance = 'https://p2p.binance.com/ru/trade/sell/USDT?fiat=RUB&payment=Tinkoff'
-API_KEY = 'youre api key'
+API_KEY = 'API key'
 
 headers = {
     "Accept": "*/*",
