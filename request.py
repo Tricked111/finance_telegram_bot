@@ -1,5 +1,3 @@
-from gc import callbacks
-import requests, telebot
 from telebot import types
 import my_parse
 

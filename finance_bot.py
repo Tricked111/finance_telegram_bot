@@ -1,7 +1,6 @@
 import my_data as DATA
 import telebot
 import request
-from telebot import types
 
 #create bot
 bot = telebot.TeleBot(DATA.API_KEY)

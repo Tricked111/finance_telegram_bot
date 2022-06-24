@@ -1,5 +1,3 @@
-import csv
-from turtle import clear
 from bs4 import BeautifulSoup as BS
 import requests
 import my_data as DATA
