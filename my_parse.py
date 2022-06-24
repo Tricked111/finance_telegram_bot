@@ -3,7 +3,6 @@ from turtle import clear
 from bs4 import BeautifulSoup as BS
 import requests
 import my_data as DATA
-import json
 
 def parse_tinkoff():
     r = requests.get(DATA.tinkof)
