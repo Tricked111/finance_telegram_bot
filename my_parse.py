@@ -15,12 +15,6 @@ def parse_tinkoff():
 def parse_binance():
     r = requests.post('https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search', headers=DATA.headers, json=DATA.data).json()
 
-    #with open("data.json", "w") as write_file:
-    #    json.dump(r, write_file,indent = 6)
-  
-    #with open('data.json', 'r') as f:
-    #data = json.loads(r.read())
-    #data = r
     clear_list = []
     for i in r['data']:
         list = i['adv']
