@@ -67,7 +67,7 @@ def calc_profit(bot, val, message):
     value_tinkoff = my_parse.parse_tinkoff()
     value_binance = my_parse.parse_binance()
     profit = round(
-        (float(val) / float(value_tinkoff) - 5.0) * 0.982 * float(value_binance), 2
+        (float(val) / float(value_tinkoff) - 30.0) * 0.982 * float(value_binance), 2
     )
 
     rozdil = round((profit - val), 2)
