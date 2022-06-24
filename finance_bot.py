@@ -12,5 +12,5 @@ request.command_start(bot)
 #sort text
 request.command_sorter(bot)
 
-#while start bott
+#while start bot
 bot.polling(non_stop=True,interval=0)
