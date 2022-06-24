@@ -14,7 +14,6 @@ def command_start(bot):
 def starter(bot, message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     item_get_info = types.KeyboardButton("get info⁉")
-    # item_get_screen =types.KeyboardButton('get screenshot📸')
     item_profit = types.KeyboardButton("calc profit💸")
 
     markup.add(item_get_info, item_profit)
