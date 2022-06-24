@@ -90,6 +90,8 @@ def command_sorter(bot):
             msg = command_profit(bot, message)
             command_answer(bot, message)
             bot.register_next_step_handler(msg, test)
+        elif message.texr == "help":
+            pass
 
     def test(message):
         try:
