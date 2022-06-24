@@ -97,7 +97,6 @@ def command_sorter(bot):
             float(message.text)
         except:
             if message.text != "back":
-                # print("Error")
                 msg = bot.send_message(message.chat.id, "Enter amount")
                 bot.register_next_step_handler(msg, test)
             elif message.text == "back":
