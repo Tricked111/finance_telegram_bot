@@ -7,7 +7,7 @@ def parse_tinkoff():
     soup = BS(r.text,'html.parser')
     string_data = soup.find_all("span", class_="Money-module__money_UZBbh")
     value = [c.text for c in string_data]
-    return(value[-1][0:2]+'.'+value[-1][3:4])
+    return(value[1][0:2]+'.'+value[1][3:4])
     
 def parse_binance():
     r = requests.post('https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search', headers=DATA.headers, json=DATA.data).json()
